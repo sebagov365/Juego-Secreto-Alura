@@ -20,7 +20,7 @@ function verificarIntento() {
         document.getElementById('reiniciar').removeAttribute('disabled');
     } else {
         if (numeroDeUsuario > numeroSecreto) {
-            asignarTextoElemento ('p', 'El número es mernor' )
+            asignarTextoElemento ('p', 'El número es menor' )
         } else {
             asignarTextoElemento ('p', 'El número es mayor' )
         }
